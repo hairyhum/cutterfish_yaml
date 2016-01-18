@@ -1,0 +1,12 @@
+{application, cuttlefish_yaml,
+ [
+  {description, "cuttlefish yaml parser"},
+  {vsn, git},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+		  cuttlefish
+                 ]},
+  {env, []}
+ ]}.
